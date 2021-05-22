@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header{
+    width: 100%;
+    padding: 0;
+}
+
+.header__bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/girl.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    padding: 20px 12%;
+    
+    
+}
+
+.header__img{
+   width: 160px;
+   height: 75px;
+} 
+
+.header__link{
+    padding: 40px 0;
+}
+
+ .header__link a{       
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 33px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.header__link a:hover{
+    color: #F1D204;
+}
+
+
+ /* text section */                            
+
+.header__center{
+     width: 100%;
+}
+
+.header__text{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 14%;
+    color: white;
+}
+
+.header__text h1{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 84px;
+}
+
+.header__text p{
+    font-family: 'tim';
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+ .header__span{
+    color: yellow;
+}
+
+
+/* button section  */
+
+.header__button{
+    width: 100%;
+    margin-top: 45px;
+   
+} 
+
+.header__button1{
+   border: 3px solid white;
+   background-color: rgba(0, 0, 0, .2);
+   padding: 20px 74px;
+   color: white;
+   font-size: 16px;
+   border-radius: 3px;
+   transition: all .3s;
+
+}
+
+.header__button2{
+    border: none;
+    background-color: #F1D204;
+    padding: 22px 88px;
+    color: white;
+    font-size: 16px;
+    margin-left: 26px;
+    border-radius: 3px;
+    transition: all .3s;
+ }
+
+ .header__button1:hover{
+     background-color: transparent;
+ }
+
+ .header__button2:hover{
+    background-color: #a46497;;
+ }
